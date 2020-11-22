@@ -5,10 +5,12 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { FormsModule } from '@angular/forms';
+import { ChatDatePipe } from './pipe/chat-date.pipe';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ChatDatePipe
   ],
   imports: [
     BrowserModule,
